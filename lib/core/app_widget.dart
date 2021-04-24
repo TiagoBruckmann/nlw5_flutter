@@ -1,5 +1,6 @@
 // import pacotes nativos flutter
 import 'package:flutter/material.dart';
+import 'package:nlw5_quiz_flutter/challenge/challange_page.dart';
 
 // import das telas
 import 'package:nlw5_quiz_flutter/home/home_page.dart';
@@ -9,7 +10,7 @@ class AppWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "DevQuiz",
-      home: HomePage(),
+      home: ChallangePage(),
     );
   }
 }
