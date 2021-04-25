@@ -1,6 +1,6 @@
 name: nlw5_quiz_flutter
 description: DevQuiz
-version: 1.0.0+1
+version: 1.0.0+4
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -18,5 +18,6 @@ dev_dependencies:
 flutter:
   assets:
     - assets/images/
+    - assets/database/
 
   uses-material-design: true
